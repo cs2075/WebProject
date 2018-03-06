@@ -1,3 +1,72 @@
+img {
   font-size: 18px;
   color: white;
+}
+header {
   text-align: center;
+  background: rgba(0,0,0,0.25);
+  background-size: cover;
+  background-position: center;
+  color: yellow;
+  font-family: helvetica, sans-serif;
+  font-size: 76px;
+}
+body {
+  text-align: center;
+  background: rgba(0,0,0,0.5);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: helvetica;
+}
+p {
+  font-size: 22px;
+  font-family: helvetica;
+  text-align: center;
+}
+input {
+  border: 0;
+  padding: 10px;
+  font-size: 18px;
+}
+input[type="submit"] {
+  background: yellow;
+  color: rgba(0,0,0,0.75);
+}
+ul {
+  padding: 10px;
+  background: rgba(0,0,0,0.5);
+  font-size: 24px;
+}
+li {
+  display: inline;
+  padding: 0px 30px 0px 30px;
+}
+a {
+  color: white;
+}
+h2 {
+  text-decoration: underline;
+}
+article {
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+  font-family: helvetica;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 36px;
+    padding: 5px;
+  }
+  li {
+    padding: 5px;
+    display: block;
+  }
+  a{
+    font-size: 18px;
+  }
+  button {
+    background-color: yellow;
+  }
+}
