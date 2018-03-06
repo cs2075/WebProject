@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="Css/styles.css">
+  <title>Chloe Smith</title>
+</head>
+<header>
+  <img src="" alt="Here is a picture of me:">
+  <h1>Chloe's Blog</h1>
+  <ul>
+    <li><a href="#">About Me</a></li>
+    <li><a href="#">Blog Posts</a></li>
+    <li><a href="#">Contact Information</a></li>
+  </ul>
+  <p>I'm a second year Maths Student at the University of Bath. If you'd like to subscribe to my blog, sign up here!</p>
+  <input type="email" placeholder="Your email">
+  <input type="submit">
+</header>
+<body>
+  <article>
+    <h2>20th Feb 2018 Lesson 2</h2>
+    <p>We will talk about CSS and Javascript today.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>13th Feb 2018 Lesson 1</h2>
+    <p>We covered HTML and the basics of the internet and website creation.</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
+</html>
